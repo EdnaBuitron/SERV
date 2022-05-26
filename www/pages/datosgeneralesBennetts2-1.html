@@ -1,0 +1,97 @@
+<template>
+    <div class="page" style="background-color: rgb(245, 245, 245);">
+        <div class="navbar" style="background-color: #063E7F;height: 52px;">
+            <div style="text-align: center;"><img src="img/logo-FWM.png" style="margin-top: 5px;" height="41.38px" alt="Logo Field"></div>
+            <div class="navbar-inner sliding" style="height: 52px;">
+                <div class="left">
+                    <a href="#" onclick="regresarRecorridoBennetts21();">
+                        <span class="nav-text-regresar" id="nav-text-regresar-function">Regresar</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <div style="text-align: center; justify-content:center; margin-right:auto; margin-left:auto; width: 99%;">
+                <h2 style="color:#063E7F;font-size: 20px;font-family: 'ITC Avant Garde Gothic', sans-serif;margin-top: 35px;">Reglas de Negocio</h2>
+
+                <form class="list" style="margin-top: 0;">                    
+                    <style type="text/css">
+                        input[type=text]{
+                            margin: 8px 0;
+                            border: 1px solid #ccc;
+                            border-radius: 6px;
+                        }
+                    </style>
+                    <div style="width: 90%;border-radius: 15px;margin-left: 5%;border: 0.5px solid #ECECEC;background-color: white;">
+                        <span class="span" style="font-weight: bold;width: 90%;">Número de cliente:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 0;border-bottom: 0;">
+                            <input type='text' name="numero_cliente" id="numero_cliente" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" readonly/>
+                        </span>
+                        <span class="span" style="font-weight: bold;width: 90%;">Cliente:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 0;border-bottom: 0;">
+                            <input type='text' name="cliente" id="cliente" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" readonly/>
+                        </span>
+                        <span class="span" style="font-weight: bold;width: 90%;">Dirección de cobranza:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 0;border-bottom: 0;">
+                            <input type='text' name="direccion" id="direccion" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" style="margin: 8px 0; border: 1px solid #ccc; border-radius: 6px;" readonly/>
+                        </span>
+                        <span class="span" style="font-weight: bold;width: 90%;">Días de revisión:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 0;border-bottom: 0;">
+                            <input type='text' name="dias_revision" id="dias_revision" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" style="margin: 8px 0; border: 1px solid #ccc; border-radius: 6px;" readonly/>
+                        </span>
+                        <span class="span" style="font-weight: bold;width: 90%;">Horarios de revisión:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 0;border-bottom: 0;">
+                            <input type='text' name="horarios" id="horarios" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" style="margin: 8px 0; border: 1px solid #ccc; border-radius: 6px;" readonly/>
+                        </span>
+                        <span class="span" style="font-weight: bold;width: 90%;">Requisitos de dias_revisión:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 0;border-bottom: 0;">
+                            <input type='text' name="requisitos" id="requisitos" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" style="margin: 8px 0; border: 1px solid #ccc; border-radius: 6px;" readonly/>
+                        </span>
+                        <span class="span" style="font-weight: bold;width: 90%;">Horarios de Pago:</span>
+                        <span id="text2" style="width: 90%;margin-bottom: 30px;border-bottom: 0;">
+                            <input type='text' name="dias_horarios" id="dias_horarios" class="FWM-textBox" onchange="inputLleno(this.id,this.value)" style="margin: 8px 0; border: 1px solid #ccc; border-radius: 6px;" readonly/>
+                        </span>
+                    </div>
+                    <!---CAMBIOS--->    
+                </form>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+    return {
+        on: {      
+            pageInit: function () {
+                var id_cedula = localStorage.getItem("IdCedula");
+                databaseHandler.db.transaction(
+                    function(tx){
+                        tx.executeSql(
+                            "Select * from cobranza WHERE id_cedula = ?",
+                            [id_cedula],
+                            function(tx, results){
+                                let length = results.rows.length;
+                                for(var i = 0; i< length; i++){
+                                    var item = results.rows.item(i);
+                                    $("#numero_cliente").val(item.id_cliente);
+                                    $("#cliente").val(item.cliente);
+                                    $("#direccion").val(item.direccion);
+                                    $("#dias_revision").val(item.dias_revision);
+                                    $("#horarios").val(item.horarios);
+                                    $("#requisitos").val(item.requisitos);
+                                    $("#dias_horarios").val(item.dias_horarios);
+                                } 
+                            },
+                            function(tx, error){
+                                console.log("Error al mostar datos: " + error.message);
+                                app.preloader.hide();  
+                            }
+                        );  
+                    },
+                    function(error){},
+                    function(){}
+                );
+            }
+        }
+    }
+</script>

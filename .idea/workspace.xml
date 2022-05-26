@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2af52228-d05e-4265-a53d-26c98c60e824" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/databaseHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/databaseHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/metodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/metodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/productHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/productHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/js/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/calendar-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/calendar-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/cierreDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/cierreSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/cierreSUROE2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/cierreServInd5.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/cierreServInd5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/continuar_papeleta.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/continuar_papeleta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/datosgeneralesDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/datosgeneralesSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/datosgeneralesServ3.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/datosgeneralesServ3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formSUROE9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formServ38.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formServ38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formServ39.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formServ39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/formServ42.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/menuSURO2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/menuSUROEjecutivo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/menuServPMPSOEC.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/menuServPMPSOEC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/papeletas.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/papeletas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoSUROE2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoSUROE3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoSUROE4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoSUROE5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoSUROE6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoServ3.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/recorridoServ3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/yallegueSuroE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/yalleguedevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/pages/yamevoyDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/databaseHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/databaseHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/metodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/metodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/productHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/productHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/calendar-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/calendar-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/cierreDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/cierreSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/cierreSUROE2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/cierreServInd5.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/cierreServInd5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/continuar_papeleta.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/continuar_papeleta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/datosgeneralesDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/datosgeneralesSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/datosgeneralesServ3.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/datosgeneralesServ3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formSUROE9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formServ38.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/formServ38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formServ39.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/formServ39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/formServ42.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/menuSURO2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/menuSUROEjecutivo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/menuServPMPSOEC.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/menuServPMPSOEC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/papeletas.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/papeletas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoDevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoSUROE1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoSUROE2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoSUROE3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoSUROE4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoSUROE5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoSUROE6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/recorridoServ3.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/pages/recorridoServ3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/yallegueSuroE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/yalleguedevlyn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/pages/yamevoyDevlyn.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27Wkag42pPbuLRBV19ogb2gtySx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2af52228-d05e-4265-a53d-26c98c60e824" name="Default Changelist" comment="" />
+      <created>1649443298596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649443298596</updated>
+    </task>
+    <servers />
+  </component>
+</project>
